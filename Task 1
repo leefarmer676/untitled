@@ -7,6 +7,19 @@
 4. Now instruct git to keep track of this project folder by enabling version control to create new local repository
     1. You can do this by going to top menu 'VCS' -> Enable Version Control' and hit 'Ok'
     2. VCS option will turn into Git from this point on
-    3. You will see success message on bottom left corner saying created git repository in xxx location.
-    4. If you see version not supported on bottom left corner
+    3. From 'Git' opetion click 'commit'
+    4. Itwill open tab on left
+        1. select all files you want to keep tack of
+        2. enter commit message into the box right on top of commit button
+        3. and hit commit
+    5. It will ask you to enter 'name and email'
+        1. enter desired name
+        2. Enter same email you used for github.com acct
+    6. You will see success message on bottom left corner saying created git repository in xxx location.
+    7. If you see version not supported on bottom left corner
         1. Click on configure link and click next on screen
+
+  5. Now do some work (add text anywhere
+    1. 'git' will see what has changed
+    2. IntelliJ will also indicate with green bar on left
+    3. Now when we are ready ...
