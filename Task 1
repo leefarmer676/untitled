@@ -22,4 +22,45 @@
   5. Now do some work (add text anywhere
     1. 'git' will see what has changed
     2. IntelliJ will also indicate with green bar on left
-    3. Now when we are ready ...
+    3. Now when we are ready to save this change into git repository, we can make our second commmit same way we did previously
+    4. Go to top menu 'Git' -> Commit
+        1. from left tab select the file chang you want ot commit
+        2.provid commit messages
+        3. hit ocmmit
+    ## Sharing local git repsository to GitHub
+
+    1. Go to 'preference' on mac and File -> 'Settign' on Windows
+    2. Search for 'Github' from the preference
+    3. Click on 'GitHub' from the left tab search result
+    4. Click on 'Add account' -> 'login via Github'
+        1. It will open up browser window
+        2. Authorize JetBrain
+        3. Enter credential if asked
+        4. Authorisze 'cybertek=b25' if asked
+        5. Enter Okta credentials if asked
+        6. Now yo wil see success message it's connected
+        7. Now you can directly interact witih GitHub from your IntelliJ
+      5. Back to IntelliJ and click OK to save progress
+      6. Make sur eyou commited all your changes
+      7. From top menu 'Git' -> "github' -> 'Share prject on github'
+        1. Optionally provide description
+        2. Hit 'Share' button
+        3. After a while if will give you success message with direct link
+       8. Here is what exactly happened from previous process once you click on share button
+        1. It created new remote repository under your github account
+        2. It created connection bw your local repository adn remote repository on github.com
+        3. it pushed all local commits to remote repository
+        4. All these steps are happening in one shot behind the scenes
+        5. So we just need ot do it one 'Share Project on GitHub'
+     9. What if i have mor eowrk and more commits
+        1. Make your changes and commit hcanges
+        2. DO NOT USE SHARE PROJECT ON GITHUB bc it already established the ocnnection between local and remote.
+        3. All you need to do is form teh top menu
+            1. 'Git' -> 'Push'
+            2. it will push you rlocal commits to remote repository
+            3. 'Push' is a git term for pushin local commits to remote repository
+            4. Now your local repo is in sync with remote repo
+
+       10. Create one more class called 'Practice1'
+       11. Observe the pop-up saying: Do you always want to add following file to git; click yes
+            Click on do not ask and add, so it will always do it in the future
